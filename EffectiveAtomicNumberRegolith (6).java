@@ -33,8 +33,7 @@ public class EffectiveAtomicNumberRegolith extends JPanel{
 	    frame.setSize(800, 720);
 	    frame.setLocationRelativeTo(null);
 		frame.setVisible(true);	
-		
-		//percentages array holds percentages from the proposal of the oxides and elelements of the relolith and simulant
+		//percentages array holds percentages from the proposal of the oxides and elelements of the regolith and simulant
 		double[][] percentages = new double[17][2];
 		//the rate of the electrons of the element in a copound  over the total electron number of the compound
 		double[][] elementRate = new double[12][2];
@@ -58,8 +57,8 @@ public class EffectiveAtomicNumberRegolith extends JPanel{
 			{1, 0},
 			{1, 0}
 		};
-		// molecules array contains the atomic number of the elements in a compound
-		//For SiO2 it becomes 14 and 8 because Si because atomic number of Si is 14 and atomic number of O is 8
+		//molecules array contains the atomic number of the elements in a compound
+		//for SiO2 it becomes 14 and 8 because Si because atomic number of Si is 14 and atomic number of O is 8
 		double [][] molecules = new double[][] {
 		{14, 8},
 		{22, 8},
@@ -79,8 +78,8 @@ public class EffectiveAtomicNumberRegolith extends JPanel{
 		{30, 0},
 		{35, 0}
 		};
-		// molecules3 is an array holding the atomic mass units of the elements at each compound
-		// for SiO2 because atomic mass unit of Si is 28.085 amu and atomic mass unit of O is 15.999 amu
+		//molecules3 is an array holding the atomic mass units of the elements at each compound
+		//for SiO2 because atomic mass unit of Si is 28.085 amu and atomic mass unit of O is 15.999 amu
 		double [][] molecules3 = new double[][] {
 			{28.085, 15.999},
 			{47.857, 15.999},
