@@ -196,7 +196,8 @@ public class EffectiveAtomicNumberRegolith extends JPanel{
 		System.out.println((ofGeneral(simulantCompoundAtomicNumber, simulantCompoundPercentages) - f )/ f);
 	}
 	
-
+	//this part is used to visualize the results. 
+	//the graphs are represented in an order 
 	public void paint(Graphics g) {
 		
 		super.paint(g);
